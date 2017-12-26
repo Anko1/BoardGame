@@ -1,0 +1,290 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  margin: 15% 0 5% 0;
+  font-weight: 200;
+}
+h2:after {
+  content: '';
+  display: block;
+  width: 53px;
+  height: 2px;
+  background-color: lightgray;
+  margin: 30px auto;
+}
+.navbar-fixed {
+  position: absolute;
+  z-index: 9998;
+}
+nav {
+  background-color: white;
+}
+nav .nav-wrapper {
+  margin: 0 10%;
+}
+nav ul a {
+  color: black;
+}
+.rslides-container {
+  position: relative;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+.rslides img {
+  display: block;
+  height: 100vh;
+  float: left;
+  width: 100%;
+  border: 0;
+  -webkit-animation-name: example;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 35s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes example {
+  0% {
+    transform-origin: top left;
+    transform: scale(1);
+  }
+  17% {
+    transform-origin: top left;
+    transform: scale(1.1);
+  }
+  34% {
+    transform-origin: top left;
+    transform: scale(1);
+  }
+  51% {
+    transform-origin: top right;
+    transform: scale(1.1);
+  }
+  68% {
+    transform-origin: top right;
+    transform: scale(1);
+  }
+  85% {
+    transform-origin: bottom right;
+    transform: scale(1.1);
+  }
+  100% {
+    transform-origin: top right;
+    transform: scale(1);
+  }
+}
+.rslides1_nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 99;
+  opacity: 0.7;
+  text-indent: -9999px;
+  height: 45px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+.rslides1_nav:hover {
+  opacity: 0.8;
+}
+.rslides1_nav:active {
+  opacity: 1.0;
+}
+.rslides1_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+}
+#logo {
+  height: 62px;
+}
+.mainName {
+  position: absolute;
+  z-index: 9998;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.mainName img {
+  height: 200px;
+  opacity: 0.7;
+}
+.mainName img:hover {
+  opacity: 1;
+}
+.about {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.about img {
+  width: 100%;
+}
+.about .textAbout {
+  margin-top: 5%;
+}
+.about .textAbout p {
+  font-size: 18px;
+}
+.about .textAbout span {
+  color: darkred;
+}
+.projects {
+  text-align: center;
+}
+.projects .projectWrap2,
+.projects .projectsWrap {
+  display: flex;
+  justify-content: space-around;
+}
+.projects .projectWrap2 p,
+.projects .projectsWrap p {
+  padding: 0 60px;
+}
+.projects .projectWrap2 img,
+.projects .projectsWrap img {
+  padding-bottom: 10px;
+}
+.projects .projectWrap2 img:hover,
+.projects .projectsWrap img:hover {
+  transform: scale(1.3);
+  transition: .5s;
+}
+.projects .projectWrap2 a,
+.projects .projectsWrap a {
+  color: black;
+}
+.projects .projectWrap2 {
+  margin-top: 5%;
+}
+.ourTeam {
+  margin-top: 10%;
+}
+.ourTeam h2 {
+  text-align: center;
+}
+.ourTeam h2:after {
+  content: '';
+  display: block;
+  width: 53px;
+  height: 2px;
+  background-color: lightgray;
+  margin: 30px auto;
+}
+.teamWrap {
+  display: flex;
+  justify-content: space-around;
+}
+.teamWrap .card {
+  height: 365px;
+  width: 230px;
+}
+.teamWrap .fa-2x {
+  color: blue;
+}
+.teamWrap .card .card-action {
+  padding: 10px 0;
+}
+.teamWrap .fa-facebook-official:hover {
+  color: aqua;
+}
+.galleryWrapper img {
+  width: 100%;
+  margin-top: 10%;
+}
+#gallery {
+  background: url("../img/fingerTouc.jpg") top no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  margin-top: 10%;
+}
+#gallery .toGallery {
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 45%;
+}
+#gallery .toGallery:hover {
+  font-weight: bold;
+}
+#gallery h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 5%;
+}
+#gallery h2:after {
+  margin: 20px auto;
+}
+#form h5 {
+  font-weight: 300;
+}
+#form h2,
+#form p {
+  text-align: center;
+}
+#form h2 {
+  margin: 14% 0 0% 0;
+}
+#form h2:after {
+  margin: 20px auto;
+}
+#form .formWrap {
+  margin-top: 3%;
+}
+#form .formWrap .input-field label {
+  left: 15px;
+}
+#form .formWrap input,
+#form .formWrap textarea {
+  border: 1px solid grey;
+}
+#form .formWrap form {
+  margin-top: 3%;
+}
+#form .formWrap form .submitButton {
+  text-align: center;
+}
+#form .formWrap form .submitButton .btn-large {
+  background-color: grey;
+}
+#form .formWrap form .submitButton .btn-large:hover {
+  background-color: black;
+}
+.parallax-container {
+  height: 300px;
+  text-align: center;
+}
+.parallax-container .links {
+  margin-top: 7%;
+}
+.parallax-container .links i {
+  color: gainsboro;
+  padding: 0 5px;
+}
+.parallax-container .links i:hover {
+  color: aqua;
+}
