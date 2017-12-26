@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  margin: 15% 0 5% 0;
+  margin: 10% 0 5% 0;
   font-weight: 200;
 }
 h2:after {
@@ -136,7 +136,7 @@ nav ul a {
 }
 .about {
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
 }
 .about img {
   width: 100%;
@@ -145,13 +145,21 @@ nav ul a {
   margin-top: 5%;
 }
 .about .textAbout p {
-  font-size: 18px;
+  font-size: 25px;
 }
 .about .textAbout span {
   color: darkred;
 }
+#projects {
+  background-color: lightgray;
+  padding: 5% 0;
+  margin-top: 12%;
+}
 .projects {
   text-align: center;
+}
+.projects h2 {
+  margin: 0;
 }
 .projects .projectWrap2,
 .projects .projectsWrap {
@@ -209,10 +217,6 @@ nav ul a {
 .teamWrap .fa-facebook-official:hover {
   color: aqua;
 }
-.galleryWrapper img {
-  width: 100%;
-  margin-top: 10%;
-}
 #gallery {
   background: url("../img/fingerTouc.jpg") top no-repeat;
   background-size: cover;
@@ -221,13 +225,36 @@ nav ul a {
   position: relative;
   margin-top: 10%;
 }
-#gallery .toGallery {
+#gallery .galleryWrapper {
+  height: 100%;
+}
+#gallery .galleryWrapper .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 22%;
+}
+#gallery .galleryWrapper .row {
+  height: 75%;
+}
+#gallery .galleryWrapper .row .normalized-popup {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#gallery .galleryWrapper .row .normalized-popup img {
+  width: 100%;
+}
+#gallery .galleryWrapper .row .centered-row {
+  margin-top: 150px;
+}
+#gallery .galleryWrapper .row .centered-row .toGallery {
   color: white;
   font-weight: lighter;
   text-align: center;
-  margin-top: 45%;
 }
-#gallery .toGallery:hover {
+#gallery .galleryWrapper .row .centered-row .toGallery:hover {
   font-weight: bold;
 }
 #gallery h2 {
@@ -274,6 +301,10 @@ nav ul a {
 #form .formWrap form .submitButton .btn-large:hover {
   background-color: black;
 }
+#form .formWrap input,
+#form .formWrap textarea {
+  padding-left: 15px;
+}
 .parallax-container {
   height: 300px;
   text-align: center;
@@ -287,4 +318,19 @@ nav ul a {
 }
 .parallax-container .links i:hover {
   color: aqua;
+}
+#video {
+  text-align: center;
+}
+#video h2:after {
+  margin: 20px auto;
+}
+#video .tabs {
+  width: 74%;
+}
+#video .tabs .tab a {
+  color: black;
+}
+#video .tabs .indicator {
+  background-color: blue;
 }

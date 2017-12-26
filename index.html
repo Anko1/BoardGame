@@ -59,7 +59,7 @@
             <div class="col l12 ">
                 <h2>Про проект</h2>
                 <div class="col l6">
-                    <img src="img/placeholder-images.jpg" alt="">
+                    <img src="img/cabecera354.png" alt="">
                 </div>
                 <div class="col l6 textAbout">
                     <p><span>Натисни СТАРТ</span> - це спільнота однодумців, середовище, яке розвиває хобі настільних
@@ -71,45 +71,51 @@
     </div>
 </section>
 
-    <section>
+<section id="projects">
 
     <div class="container projects" id="ourProjects">
         <!--<div class="row">-->
             <!--<div class="col l12">-->
                 <h2>Наші проекти</h2>
                 <div class="projectsWrap">
+                    <div>
                     <a href="htmlPajes/Games.html">
                         <img src="img/start-128.png" alt="">
+                    </a>
                         <h6>Lorem ipsum dolor</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit!</p>
-                    </a>
-                    <a href="htmlPajes/Games.html">
-                        <img src="img/conference-128.png" alt="">
+                    </div>
+                    <div>
+                        <a href="htmlPajes/Games.html"> <img src="img/conference-128.png" alt=""></a><br>
                         <h6>Lorem ipsum dolor</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet?</p>
-                    </a>
+                    </div>
+                    <div>
                     <a href="htmlPajes/Games.html">
-                        <img src="img/table-128.png" alt="">
+                        <img src="img/table-128.png" alt=""> </a>
                         <h6>Lorem ipsum dolor</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam!</p>
-                    </a>
+                    </div>
                 </div>
                 <div class="projectWrap2">
+                    <div>
                     <a href="htmlPajes/Games.html">
-                        <img src="img/joystick-6-64.png" alt="">
+                        <img src="img/joystick-6-64.png" alt=""></a>
                         <h6>Lorem ipsum dolor</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit!</p>
-                    </a>
+                    </div>
+                    <div>
                     <a href="htmlPajes/Games.html">
-                        <img src="img/medal-3-128.png" alt="">
+                        <img src="img/medal-3-128.png" alt=""></a>
                         <h6>Lorem ipsum dolor</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet?</p>
-                    </a>
+                    </div>
+                        <div>
                     <a href="htmlPajes/Games.html">
-                        <img src="img/test-tube-4-128.png" alt="">
+                        <img src="img/test-tube-4-128.png" alt=""></a>
                         <h6>Lorem ipsum dolor</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam!</p>
-                    </a>
+                        </div>
                 </div>
             <!--</div>-->
         </div>
@@ -117,7 +123,7 @@
 </section>
 
 
-<section>
+<section id="ourTeam">
 <div class="container ourTeam">
     <div class="row">
         <h2>Наша команда</h2>
@@ -236,23 +242,63 @@
 
 <section id="gallery">
     <div class="container galleryWrapper">
-        <div class="row">
+
+        <div class="header">
             <h2>Галерея</h2>
-            <div class="col l3">
+        </div>
+
+        <div class="row">
+            <div class="col l3 normalized-popup">
                 <img class="materialboxed" src="img/photo.jpg" alt="">
                 <img class="materialboxed" src="img/photo.jpg" alt="">
                 <img class="materialboxed" src="img/photo.jpg" alt="">
             </div>
-            <div class="col l4 offset-l1">
+            <div class="col l6 centered-row">
+                <!--TODO rewrite into a span(h4)-->
                 <a href=""><h4 class="toGallery">Перейти в галерею</h4></a>
             </div>
-            <div class="col l3 offset-l1">
+            <div class="col l3 normalized-popup">
                 <img class="materialboxed" src="img/photo.jpg" alt="">
                 <img class="materialboxed" src="img/photo.jpg" alt="">
                 <img class="materialboxed" src="img/photo.jpg" alt="">
             </div>
         </div>
     </div>
+</section>
+
+<section id="video">
+    <div class="container">
+        <h2>Відео</h2>
+        <div class="row">
+            <video class="responsive-video" controls>
+                <source src="video/finish0001-0120.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="row">
+                <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a href="#test-swipe-1">Відео 1</a></li>
+                    <li class="tab col s3"><a class="active" href="#test-swipe-2">Відео 2</a></li>
+                    <li class="tab col s3"><a href="#test-swipe-3">Відео 3</a></li>
+                </ul>
+                <div id="test-swipe-1" class="col s12">
+                    <video class="responsive-video" controls>
+                        <source src="video/finish0001-0120.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div id="test-swipe-2" class="col s12">
+                    <video class="responsive-video" controls>
+                        <source src="video/finish0001-0120.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div id="test-swipe-3" class="col s12">
+                    <video class="responsive-video" controls>
+                        <source src="video/finish0001-0120.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+        </div>
+    </div>
+
 </section>
 
 
@@ -270,24 +316,24 @@
                 <form class="col l12">
                 <div class="row">
                     <div class="input-field">
-                        <input  id="first_name" type="text" class="validate">
+                        <input id="first_name" type="text" class="validate" name="name">
                         <label for="first_name">Ім'я</label>
                     </div>
             </div>
                 <div class="row">
                     <div class="input-field ">
-                        <input id="email" type="email" class="validate">
+                        <input id="email" type="email" class="validate" name="email">
                         <label for="email">Поштова скринька</label>
                     </div>
                 </div>
                     <div class="row">
                         <div class="input-field ">
-                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <textarea id="textarea1" class="materialize-textarea" name="textarea"></textarea>
                             <label for="textarea1">Побажання та пропозиції</label>
                         </div>
                     </div>
                     <div class="row submitButton">
-                        <a id="submit" class="waves-effect waves-light btn-large center">Відправити</a>
+                        <button type="submit" id="submit" class="waves-effect waves-light btn-large center">Відправити</button>
                     </div>
                 </form>
         </div>

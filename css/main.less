@@ -8,7 +8,7 @@ section {
 
 }
 h2 {
-  margin: 15% 0 5% 0;
+  margin: 10% 0 5% 0;
   font-weight: 200;
   &:after {
     content: '';
@@ -158,7 +158,7 @@ nav {
 }
 .about {
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
 
   img {
     width: 100%;
@@ -167,7 +167,7 @@ nav {
     margin-top: 5%;
 
     p {
-      font-size: 18px;
+      font-size: 25px;
     }
     span {
       color: darkred;
@@ -175,9 +175,17 @@ nav {
   }
 }
 
-
+#projects {
+  background-color: lightgray;
+  padding: 5% 0;
+  margin-top: 12%;
+}
 .projects {
   text-align: center;
+
+  h2 {
+    margin: 0;
+  }
   .projectWrap2, .projectsWrap {
     display: flex;
     justify-content: space-around;
@@ -195,6 +203,7 @@ nav {
     a {
       color: black;
     }
+
   }
 
   .projectWrap2 {
@@ -247,13 +256,7 @@ nav {
 //  width: 100%;
 //  position: relative;
 //}
-.galleryWrapper {
 
-  img {
-    width: 100%;
-    margin-top: 10%;
-  }
-}
 #gallery {
   background: url("../img/fingerTouc.jpg") top no-repeat;
   background-size: cover;
@@ -262,16 +265,49 @@ nav {
   position: relative;
   margin-top: 10%;
 
-  .toGallery {
-    color: white;
-    font-weight: lighter;
-    text-align: center;
-    margin-top: 45%;
+  .galleryWrapper {
+    height: 100%;
 
-    &:hover {
-      font-weight: bold;
+    .header{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 22%;
     }
+
+    .row{
+      height: 75%;
+
+      .normalized-popup{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        img {
+          width: 100%;
+          //margin-top: 10%;
+        }
+      }
+
+      .centered-row{
+        margin-top: 150px;
+
+        .toGallery {
+          color: white;
+          font-weight: lighter;
+          text-align: center;
+          //margin-top: 45%;
+
+          &:hover {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
   }
+
 
   h2 {
     color: white;
@@ -323,8 +359,12 @@ h2, p {
           }
         }
       }
+
     }
   }
+}
+#form .formWrap input, #form .formWrap textarea {
+  padding-left: 15px;
 }
 .parallax-container {
   height: 300px;
@@ -343,4 +383,24 @@ h2, p {
       }
     }
   }
+}
+
+#video {
+  text-align: center;
+h2 {
+  &:after {
+    margin: 20px auto;
+  }
+}
+  .tabs {
+    width: 74%;
+
+    .tab a {
+      color: black;
+    }
+    .indicator {
+      background-color: blue;
+    }
+  }
+
 }
