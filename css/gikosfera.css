@@ -1,0 +1,37 @@
+.giko-wrap {
+  text-align: center;
+}
+.giko-wrap img {
+  margin-top: 3%;
+  width: 304px;
+}
+.giko-wrap p {
+  font-size: 20px;
+  line-height: 2;
+  margin: 5% 0 10% 0;
+}
+.giko-wrap .last {
+  margin-top: 10%;
+}
+.giko-wrap .last a img {
+  width: 50%;
+}
+.giko-wrap .last a img:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+.giko-wrap .last p {
+  margin: 0 0 10% 0;
+}
+.giko-wrap .main {
+  list-style-type: square;
+  text-align: left;
+  font-size: 20px;
+  line-height: 2;
+}
+.giko-wrap .main li {
+  list-style-type: square;
+}
+.giko-wrap .first {
+  margin: 5% 0 0 0;
+}

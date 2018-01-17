@@ -1,3 +1,40 @@
+.giko-wrap {
+  text-align: center;
+}
+.giko-wrap img {
+  margin-top: 3%;
+  width: 304px;
+}
+.giko-wrap p {
+  font-size: 20px;
+  line-height: 2;
+  margin: 5% 0 10% 0;
+}
+.giko-wrap .last {
+  margin-top: 10%;
+}
+.giko-wrap .last a img {
+  width: 50%;
+}
+.giko-wrap .last a img:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+.giko-wrap .last p {
+  margin: 0 0 10% 0;
+}
+.giko-wrap .main {
+  list-style-type: square;
+  text-align: left;
+  font-size: 20px;
+  line-height: 2;
+}
+.giko-wrap .main li {
+  list-style-type: square;
+}
+.giko-wrap .first {
+  margin: 5% 0 0 0;
+}
 body {
   height: 100%;
   margin: 0;
@@ -161,6 +198,9 @@ nav ul a {
 .projects h2 {
   margin: 0;
 }
+.projects h6 {
+  font-weight: bold;
+}
 .projects .projectWrap2,
 .projects .projectsWrap {
   display: flex;
@@ -173,6 +213,7 @@ nav ul a {
 .projects .projectWrap2 img,
 .projects .projectsWrap img {
   padding-bottom: 10px;
+  height: 180px;
 }
 .projects .projectWrap2 img:hover,
 .projects .projectsWrap img:hover {
@@ -333,4 +374,19 @@ nav ul a {
 }
 #video .tabs .indicator {
   background-color: blue;
+}
+#parthners {
+  text-align: center;
+}
+#parthners .plast {
+  height: 90px;
+  width: 85px;
+}
+#parthners .b-theory {
+  height: 107px;
+  width: 107px;
+}
+#parthners a img {
+  width: 160px;
+  padding: 0 5px;
 }
