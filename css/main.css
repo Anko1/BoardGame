@@ -165,7 +165,7 @@ nav ul a {
   text-align: center;
 }
 .mainName img {
-  height: 200px;
+  height: 140px;
   opacity: 0.7;
 }
 .mainName img:hover {
@@ -385,6 +385,15 @@ nav ul a {
 #parthners .b-theory {
   height: 107px;
   width: 107px;
+}
+#parthners .igames {
+  transform: translatey(-107%);
+}
+#parthners .boardGames {
+  transform: translatey(-25%);
+}
+#parthners .kilogames {
+  transform: translatey(-50%);
 }
 #parthners a img {
   width: 160px;
