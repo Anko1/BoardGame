@@ -1,6 +1,15 @@
 .giko-wrap {
   text-align: center;
 }
+.giko-wrap .videoImg {
+  width: 250px;
+}
+.giko-wrap .videoTxt {
+  margin: 5% 0 5% 0;
+}
+.giko-wrap .tableTxt {
+  margin: 5% 0 2% 0;
+}
 .giko-wrap img {
   margin-top: 3%;
   width: 304px;
@@ -12,9 +21,10 @@
 }
 .giko-wrap .last {
   margin-top: 10%;
+  display: flex;
 }
 .giko-wrap .last a img {
-  width: 50%;
+  width: 90%;
 }
 .giko-wrap .last a img:hover {
   transform: scale(1.1);
@@ -22,6 +32,7 @@
 }
 .giko-wrap .last p {
   margin: 0 0 10% 0;
+  font-size: 27px;
 }
 .giko-wrap .main {
   list-style-type: square;
@@ -34,4 +45,46 @@
 }
 .giko-wrap .first {
   margin: 5% 0 0 0;
+}
+.youtubeLinks .youtubeImg {
+  transform: translateY(-26%);
+}
+.youtubeLinks .soundcloudImg {
+  transform: translateY(-5%);
+}
+.youtubeLinks a img {
+  width: 200px;
+  margin: 0 15%;
+}
+.gameOfTables a img {
+  width: 500px;
+}
+.gameOfTables a img:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+.gameOfTables a p {
+  margin: 0 0 10% 0;
+  font-size: 27px;
+}
+.creditCard {
+  width: 700px !important;
+  transform: translateY(-14%);
+}
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
